@@ -19,6 +19,7 @@ import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter
 
 plugins {
+<<<<<<< Updated upstream
   id "base"
   id "com.palantir.consistent-versions" version "2.11.0"
   id "org.owasp.dependencycheck" version "8.0.1"
@@ -28,6 +29,18 @@ plugins {
   id "net.ltgt.errorprone" version "3.0.1" apply false
   id 'com.diffplug.spotless' version "6.5.2" apply false
   id 'com.github.node-gradle.node' version '3.4.0' apply false
+=======
+  id 'base'
+  id 'com.palantir.consistent-versions' version '2.16.0'
+  id 'org.owasp.dependencycheck' version '8.4.0'
+  id 'ca.cutterslade.analyze' version '1.9.1'
+  id 'de.thetaphi.forbiddenapis' version '3.6' apply false
+  id 'de.undercouch.download' version '5.5.0' apply false
+  id 'net.ltgt.errorprone' version '3.1.0' apply false
+  id 'com.diffplug.spotless' version '6.5.2' apply false
+  id 'com.github.node-gradle.node' version '7.0.1' apply false
+  id 'org.checkerframework' version '0.6.35' apply false
+>>>>>>> Stashed changes
 }
 
 apply from: file('gradle/globals.gradle')
@@ -141,6 +154,7 @@ apply from: file('gradle/ide/eclipse.gradle')
 // Validation tasks
 apply from: file('gradle/validation/measure-task-times.gradle')
 apply from: file('gradle/validation/error-prone.gradle')
+apply from: file('gradle/validation/checkerframework.gradle')
 apply from: file('gradle/validation/precommit.gradle')
 apply from: file('gradle/validation/forbidden-apis.gradle')
 apply from: file('gradle/validation/jar-checks.gradle')

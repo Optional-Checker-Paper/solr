@@ -269,10 +269,17 @@ org.carrot2:morfologik-fsa:2.1.9 (1 constraints: db0d9c36)
 org.carrot2:morfologik-polish:2.1.9 (1 constraints: d312541e)
 org.carrot2:morfologik-stemming:2.1.9 (2 constraints: d81fb300)
 org.ccil.cowan.tagsoup:tagsoup:1.2.1 (1 constraints: 5b0ce801)
+<<<<<<< Updated upstream
 org.checkerframework:checker-qual:3.33.0 (5 constraints: 57468bea)
 org.codehaus.janino:commons-compiler:3.1.8 (2 constraints: 2f1983ec)
 org.codehaus.janino:janino:3.1.8 (1 constraints: 640dbc2c)
 org.codehaus.woodstox:stax2-api:4.2.1 (2 constraints: 36152eaf)
+=======
+org.checkerframework:checker-qual:3.40.0 (5 constraints: 5c4694ee)
+org.codehaus.janino:commons-compiler:3.1.9 (2 constraints: 3119a8ec)
+org.codehaus.janino:janino:3.1.9 (1 constraints: 650dbd2c)
+org.codehaus.woodstox:stax2-api:4.2.2 (2 constraints: 37155caf)
+>>>>>>> Stashed changes
 org.codelibs:jhighlight:1.1.0 (1 constraints: 590ce401)
 org.conscrypt:conscrypt-openjdk-uber:2.5.2 (1 constraints: ed0fea95)
 org.eclipse.jetty:jetty-alpn-client:10.0.15 (3 constraints: f12e1a60)
